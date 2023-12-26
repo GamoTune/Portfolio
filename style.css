@@ -120,7 +120,7 @@ h2{
     text-align: center;
 }
 .div_contact{
-    height: 100px;
+    height: 150px;
     width: 100%;
     float: left;
     color: white;
@@ -131,7 +131,7 @@ h2{
 
 .div_contact>div{
     width: 100%;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(44, 47, 51);
     text-align: center;
 
 
@@ -148,9 +148,4 @@ h2{
     height: 50px;
     vertical-align: middle;
     margin-right: 5px;
-}
-
-.div_footer{
-    height: 50px;
-    background-color: chocolate;
 }
