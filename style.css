@@ -26,12 +26,23 @@ h2{
     vertical-align: middle;
 }
 
+.col_center{
+    background-color: brown;
+    color: white;
+}
+
+.col_center img{
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
 .col_left{
-    background-color: chartreuse;
+    background-color: chocolate;
 }
 
 .col_center{
-    background-color: chocolate;
+    background-color: black;
 }
 
 .col_right{
@@ -68,6 +79,8 @@ h2{
     background-color: burlywood;
     float: left;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .div_portfolio>div{
@@ -91,12 +104,14 @@ h2{
 
 .div_about{
     height: 150px;
-    background-color: cadetblue;
+    width: 100%;
+    float: left;
+    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
-    float: left;
-    width: 100%;
+    background-color: cadetblue;
+
+
 }
 
 .div_about>div{
@@ -116,18 +131,23 @@ h2{
 
 .div_contact>div{
     width: 100%;
-    background-color: darkcyan;
+    background-color: rgb(40, 40, 40);
     text-align: center;
+
+
 }
 
 .div_contact a{
     color: white;
     text-decoration: none;
     margin-right: 20px;
+
 }
 
 .div_contact a img{
     height: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .div_footer{
