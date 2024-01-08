@@ -17,53 +17,37 @@ h2{
 .div_menu{
     height: 50px;
     text-align: center;
+    background-color: rgb(57,51,51);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflow */
 }
 
 .div_menu div{
-    width: 33.333333%;
+    width: 50%;
     height: 100%;
     float: left;
     vertical-align: middle;
+
 }
 
-.col_center{
-    background-color: brown;
-    color: white;
-}
-
-.col_center img{
-    height: 50px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-.col_left{
-    background-color: chocolate;
-}
-
-.col_center{
-    background-color: black;
-}
-
-.col_right{
-    background-color: cornflowerblue;
-}
 
 .div_title{
-    background-color: brown;
-    padding-top: 20px;
+    background-color: rgb(190,86,230);
+    padding-top: 70px;
     padding-bottom: 20px;
     color: white;
 }
 
 .div_title div{
     width: 100%;
-    background-color: darkcyan;
     text-align: center;
 }
 
 .illustration img{
     height: 200px;
+    border-radius: 50%;
 }
 
 .big_name{
@@ -76,7 +60,7 @@ h2{
 }
 
 .div_portfolio{
-    background-color: burlywood;
+    background-color: rgb(107,61,185);
     float: left;
     width: 100%;
     padding-top: 20px;
@@ -85,17 +69,15 @@ h2{
 
 .div_portfolio>div{
     width: 100%;
-    background-color: blue;
     text-align: center;
 }
 
 
 .project{                               /* pour la largeur de page par défaut : entre 800 et 1200px */   
     float: left;
-    width: 30%;                          /* 3 projets par ligne */ 
+    width: 30%;                          /* 3 projets par ligne */
     margin: 1.66%;
     height: 200px;
-    background-color: cadetblue;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -116,35 +98,37 @@ h2{
 }
 
 .div_about{
-    height: 150px;
     width: 100%;
     float: left;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: cadetblue;
+    background-color: rgb(57,51,51);
 
 
 }
 
 .div_about>div{
     width: 100%;
-    background-color: darkcyan;
     text-align: center;
 }
+
+.about_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
 .div_contact{
-    height: 150px;
     width: 100%;
     float: left;
     color: white;
     padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: chartreuse;
+    background-color: rgb(44, 47, 51);
 }
 
 .div_contact>div{
     width: 100%;
-    background-color: rgb(44, 47, 51);
     text-align: center;
 
 
