@@ -17,7 +17,7 @@ h2{
     height: 50px;
     text-align: center;
     background-color: rgb(57,51,51);
-    position: fixed; /* Set the navbar to fixed position */
+    /* position: fixed;  Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     overflow: hidden; /* Hide overflow */
@@ -126,6 +126,7 @@ h2{
     float: left;
     color: white;
     padding-top: 20px;
+    padding-bottom: 10px;
     background-color: rgb(44, 47, 51);
 }
 
