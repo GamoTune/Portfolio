@@ -13,7 +13,6 @@ h2{
     color: white;
 }
 
-
 .div_menu{
     height: 50px;
     text-align: center;
@@ -22,6 +21,9 @@ h2{
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     overflow: hidden; /* Hide overflow */
+    z-index: 100;
+    margin-top: 0px;
+
 }
 
 .div_menu div{
@@ -146,3 +148,4 @@ h2{
     vertical-align: middle;
     margin-right: 5px;
 }
+
