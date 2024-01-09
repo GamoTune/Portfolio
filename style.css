@@ -4,6 +4,14 @@ body{
     font-family: sans-serif;
 
 }
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+}
 
 h2{
     margin: 0;
@@ -11,13 +19,15 @@ h2{
     font-size: 40px;
     font-weight: bold;
     color: white;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 
 .div_menu{
     height: 50px;
     text-align: center;
     background-color: rgb(57,51,51);
-    /* position: fixed;  Set the navbar to fixed position */
+    position: fixed;  /*Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     overflow: hidden; /* Hide overflow */
@@ -34,11 +44,19 @@ h2{
 
 }
 
+.div_menu a, .div_menu a:visited, .div_menu a:active{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.div_menu a:hover{
+    color: rgb(190,86,230);
+}
 
 .div_title{
     background-color: rgb(190,86,230);
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 100px; /* 50 + 50 */
+    padding-bottom: 50px;
     color: white;
 }
 
@@ -65,8 +83,8 @@ h2{
     background-color: rgb(107,61,185);
     float: left;
     width: 100%;
-    padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 .div_portfolio>div{
