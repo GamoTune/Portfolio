@@ -93,7 +93,7 @@ h2{
 }
 
 
-.project{                               /* pour la largeur de page par défaut : entre 800 et 1200px */   
+.projet{                               /* pour la largeur de page par défaut : entre 800 et 1200px */   
     float: left;
     width: 30%;                          /* 3 projets par ligne */
     margin: 1.66%;
@@ -104,14 +104,14 @@ h2{
 }
 
 @media screen and (max-width: 800px) {  /* si la largeur de page est inférieur à 800px */
-    .project{                                
+    .projet{                                
         width: 90%;                     /* 1 projet par ligne */ 
         margin-left:5%;
     }
 }
 
 @media screen and (min-width: 1200px) { /* si la largeur de page est superieur à 1200px */
-    .project{                             
+    .projet{                             
         width: 20%;                     /* 4 projets par ligne */
         margin-left:3%;
     }
