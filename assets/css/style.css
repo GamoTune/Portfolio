@@ -1,9 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 
 }
+
+
 h1{
     margin: 0;
     padding: 0;
@@ -26,7 +31,7 @@ h2{
 .div_menu{
     height: 50px;
     text-align: center;
-    background-color: rgb(57,51,51);
+    background-color: rgb(29, 29, 29);
     position: fixed;  /*Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -54,8 +59,10 @@ h2{
 }
 
 .div_title{
-    background-color: rgb(190,86,230);
-    padding-top: 120px; /* 70 + 50 */
+   /* background-color: rgb(100, 228, 96);*/
+   background: rgb(12,8,92);
+   background: linear-gradient(165deg, rgba(12,8,92,1) 12%, rgba(104,255,88,1) 44%, rgba(46,203,255,1) 100%);
+   padding-top: 120px; /* 70 + 50 */
     padding-bottom: 70px;
     color: white;
 }
@@ -80,11 +87,10 @@ h2{
 }
 
 .div_portfolio{
-    background-color: rgb(107,61,185);
+    background-color: rgb(66, 66, 66);
     float: left;
     width: 100%;
     padding-bottom: 70px;
-
 }
 
 .div_portfolio>div{
@@ -101,6 +107,13 @@ h2{
     border-radius: 10px;
     background-size: cover;
     background-position: center;
+}
+.projet_bouton .projet_descr{
+    padding-top:5px;
+    background-color: rgba(52, 52, 52, 0.355);
+    color: #FFFFFF;
+    height:30px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 800px) {  /* si la largeur de page est inférieur à 800px */
@@ -170,7 +183,7 @@ h2{
     width: 100%;
     float: left;
     padding-bottom: 15px;
-    background-color: rgb(57,51,51);
+    background-color: rgb(77, 77, 77);
     color: white;
 }
 .projet_details .projet_title{
@@ -194,8 +207,21 @@ h2{
 
 .projet_details .projet_text img{
     margin-top:50px;
+    width:50%;
 
 }
-.bt_retour{
-    
+a.bt_retour{
+    float: left;
+    margin-top:15px;
+    margin-left:10px;
+    padding-left:8px;
+    padding-right:8px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:brown;
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+a:hover.bt_retour{
+    color:rgb(235, 228, 15);
 }
