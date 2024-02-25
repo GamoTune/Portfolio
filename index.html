@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="main.js"></script>
+    <script src="assets/js/main.js"></script>
     <title>Gamo - Portfolio</title>
 </head>
 <body>
@@ -20,35 +20,55 @@
         </div>
     </div>
     <div class="div_title" id="haut">
-        <div class="illustration"><img src="illustration.png"></div>
+        <div class="illustration"><img src="assets/images/illustration.png"></div>
         <div class="big_name">GamoTune</div>
         <div class="base_line">Developer - Gamer - Discord Master</div>
     </div>
     <div class="div_portfolio" id="portfolio">
         <div class="portfolio_title"><h2>Portfolio</h2></div>
         <div class="projets">
-            <div class="projet" id="projet_bouton_1" style="background-image: url('illustration.png');"></div>
-            <div class="projet" id="projet_bouton_2" style="background-image: url('illustration.png');"></div>
-            <div class="projet" id="projet_bouton_3" style="background-image: url('illustration.png');"></div>
-            <div class="projet" id="projet_bouton_4" style="background-image: url('illustration.png');"></div>
-            <div class="projet" id="projet_bouton_5" style="background-image: url('illustration.png');"></div>
-
+            <div class="projet_bouton" id="projet_bouton_1" style="background-image: url('assets/images/Logo_Boutons/ECA_Logo_300px_300px.png');"></div>
+            <div class="projet_bouton" id="projet_bouton_2" style="background-image: url('assets/images/Logo_Boutons/AfterLife_Logo_300px_300px.png');"></div>
+            <div class="projet_bouton" id="projet_bouton_3" style="background-image: url('assets/images/Logo_Boutons/PortFolio_Logo_300px_300px.png');"></div>
+            <div class="projet_bouton" id="projet_bouton_4" style="background-image: url('assets/images/Logo_Boutons/ClassMate_Logo_300px_300px.png');"></div>
+            
         </div>
     </div>
     <div class="projet_details" id="projet_details_1">
         <a class="bt_retour">fermer ce projet</a>
-        <div class="projet_title"><h3>Projet 1</h3></div>
+        <div class="projet_title"><h3>Electro Cube Adventure</h3></div>
         <div class="projet_text">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec odio nec nunc tincidunt tincidunt. Donec auctor, nunc nec
+                ECA est un jeu en 2D, basé sur Adventure sur Atari 2600. Codé en python, ce jeu est mon vrai premier programme, réalisé dans le cadre des mini projets NSI de première. Présenté au Trophée NSI de 2023, il a remporté le prix de la créativité au niveau régional.
+                Dans ce jeu, vous incarné un cube, qui peut ce balader dans des labyrinthe, récupérer des clés, ouvrir des portes, prendre des téléporteur, etc.... En plus d'un premier monde jouable, le jeu propose un éditeur dans le quel vous êtes libre de créer vos propres labyrinthe (une doc compléte de l'éditeur est disponible dans le jeu).
+                Le jeu est disponible sur mon GitHub.
             </p>
         </div>
     </div>
     <div class="projet_details" id="projet_details_2">
-        <div class="projet_title"><h3>Projet 2</h3></div>
+        <a class="bt_retour">fermer ce projet</a>
+        <div class="projet_title"><h3>AfterLife</h3></div>
         <div class="projet_text">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec odio nec nunc tincidunt tincidunt. Donec auctor, nunc nec
+                Description : AfterLife est un bot Discord, codé en JS, qui permet au membre de l'équipe Chimu (mon équipe CS 2), d'enregistrer toute les infos de nos match (comme il n'y a pas d'API pour ça, on doit tout remplir a la main...). Ce bot permet equalement au non-membre de l'équipe de pouvoir voir les matchs enregistrés. De plus, il envoie les stats des joueur a mon serveur web, et affiche les scores sur cette page.
+            </p>
+        </div>
+    </div>
+    <div class="projet_details" id="projet_details_3">
+        <a class="bt_retour">fermer ce projet</a>
+        <div class="projet_title"><h3>PortFolio</h3></div>
+        <div class="projet_text">
+            <p>
+                Ce PortFolio a pour but d'exposé mes travaux, et de donner un minimum de détail sur eux. Vous y retrouverez equalement des liens en bas de la page pour me contacter.
+            </p>
+        </div>
+    </div>
+    <div class="projet_details" id="projet_details_4">
+        <a class="bt_retour">fermer ce projet</a>
+        <div class="projet_title"><h3>ClassMate (en developpement)</h3></div>
+        <div class="projet_text">
+            <p>
+                ClassMate est un bot Discord, codé en JS avec Arkyan et Yazouv. Ce bot permet au étudient utilisant Pronote, de ce log via le QRCode du site, et d'afficher tout a tas d'info de leur comptes via des commandes slash (comme l'emploi du temps, les devoirs a faire, les notes, etc... 
             </p>
         </div>
     </div>
@@ -68,10 +88,10 @@
         <div class="contact_title"><h2>Contact</h2></div>
         <div class="contact_text">
             <p>
-            <a href="https://discord.com" target="_blank"><img src="discord.svg" alt="logo discord">gamotune</a>
-            <a href="https://github.com/GamoTune" target="_blank"><img src="github.svg" alt="logo github">GitHub</a>
-            <a href="https://twitter.com/GamoTune_" target="_blank"><img src="x.svg" alt="logo X (twitter)">Twitter</a>
-            <a href="https://www.instagram.com/gamotune/" target="_blank"><img src="instagram.svg" alt="logo instagram">Instagram</a>
+            <a href="https://discord.com" target="_blank"><img src="assets/images/discord.svg" alt="logo discord">gamotune</a>
+            <a href="https://github.com/GamoTune" target="_blank"><img src="assets/images/github.svg" alt="logo github">GitHub</a>
+            <a href="https://twitter.com/GamoTune_" target="_blank"><img src="assets/images/x.svg" alt="logo X (twitter)">Twitter</a>
+            <a href="https://www.instagram.com/gamotune/" target="_blank"><img src="assets/images/instagram.svg" alt="logo instagram">Instagram</a>
         </p>
         </div>
 
