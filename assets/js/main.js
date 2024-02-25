@@ -4,7 +4,7 @@ $(document).ready(function(){
     $(".projet_details").hide();
 
     $(".projet_bouton").on( "click", function() {
-        num= $(this).attr("id").split("_")[2];
+        num = $(this).attr("id").split("_")[2];
         console.log($(this).attr("id"));
         $(".div_portfolio .projets").hide("slow");
         $("#projet_details_"+num).show("slow");
