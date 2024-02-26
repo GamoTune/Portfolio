@@ -5,9 +5,26 @@ body{
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-
 }
 
+a:link {
+    color: rgb(0, 123, 255);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(12, 87, 237);
+}
+  
+/* mouse over link */
+a:hover {
+    color: rgb(12, 198, 255);
+}
+  
+/* selected link */
+a:active {
+    color: blue;
+}
 
 h1{
     margin: 0;
