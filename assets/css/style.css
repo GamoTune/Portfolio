@@ -218,10 +218,11 @@ a.bt_retour{
     padding-right:8px;
     padding-top:5px;
     padding-bottom:5px;
-    color:brown;
-    background-color: yellowgreen;
+    color:rgb(255, 255, 255);
+    background-color: rgb(20, 87, 232);
     border-radius: 5px;
+    font-size: 20px;
 }
 a:hover.bt_retour{
-    color:rgb(235, 228, 15);
+    background-color: rgb(11, 47, 125);
 }
