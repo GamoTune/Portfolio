@@ -138,6 +138,10 @@ h2{
         width: 90%;                     /* 1 projet par ligne */ 
         margin-left:5%;
     }
+    .div_menu{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 1200px) { /* si la largeur de page est superieur à 1200px */
@@ -218,7 +222,7 @@ h2{
     width:100%;
     font-size: 20px;
     text-align: center;
-    padding: 15px;
+    
     margin-bottom: 50px;
 }
 
