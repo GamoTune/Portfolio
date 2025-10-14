@@ -174,6 +174,21 @@ $texts = [
     // Liste des tests et expérimentations
     'tests' => [
         [
+            'title' => 'Serveur Proxmox',
+            'date' => '2025',
+            'description' => [
+                'Même machine que le serveur Ubuntu, j\ai changer l\'OS pour Proxmox VE afin de gérer des machines virtuelles et des conteneurs LXC.',
+                'J\'ai déjà créé quelques VM (Windows, Omarchy), et des conteneurs LXC (Deb Alpine, OPNsense) afin de faire des tests et d\'apprendre à utiliser Proxmox.',
+            ],
+            'image' => 'https://gamo.one/assets/server/server_icon.jpeg',
+            'github' => null,
+            'webpage' => null,
+            'gallery' => [
+                'https://gamo.one/assets/server/server.jpeg',
+                'https://gamo.one/assets/server/ssh_login.jpeg',
+            ],
+        ],
+        [
             'title' => 'Cluster avec Ray & Netboot',
             'date' => '2025',
             'description' => [
@@ -201,7 +216,7 @@ $texts = [
             ],
             'image' => 'https://gamo.one/assets/server/server_icon.jpeg',
             'github' => null,
-            'webpage' => 'https://server.gamo.one',
+            'webpage' => null,
             'gallery' => [
                 'https://gamo.one/assets/server/server.jpeg',
                 'https://gamo.one/assets/server/ssh_login.jpeg',
