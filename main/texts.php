@@ -184,8 +184,9 @@ $texts = [
             'github' => null,
             'webpage' => null,
             'gallery' => [
-                'https://gamo.one/assets/server/server.jpeg',
-                'https://gamo.one/assets/server/ssh_login.jpeg',
+                'https://gamo.one/assets/proxmox/pve1.jpeg',
+                'https://gamo.one/assets/proxmox/pve2.jpeg',
+                'https://gamo.one/assets/proxmox/pve3.jpeg',
             ],
         ],
         [
@@ -214,12 +215,12 @@ $texts = [
                 'Machine physique chez moi, utilisant Ubuntu Server 22.04 LTS.',
                 'J\'ai configuré divers services comme un serveur web (Apache2), des serveurs de jeux (Minecraft/Satisfactory), et pm2 me permet de gérer mes applications Node.js.',
             ],
-            'image' => 'https://gamo.one/assets/server/server_icon.jpeg',
+            'image' => 'https://gamo.one/assets/ubuntu/server_icon.jpeg',
             'github' => null,
             'webpage' => null,
             'gallery' => [
-                'https://gamo.one/assets/server/server.jpeg',
-                'https://gamo.one/assets/server/ssh_login.jpeg',
+                'https://gamo.one/assets/ubuntu/server.jpeg',
+                'https://gamo.one/assets/ubuntu/ssh_login.jpeg',
             ],
         ],
     ],
