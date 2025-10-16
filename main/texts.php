@@ -177,7 +177,7 @@ $texts = [
             'title' => 'Serveur Proxmox',
             'date' => '2025',
             'description' => [
-                'Même machine que le serveur Ubuntu, j\ai changer l\'OS pour Proxmox VE afin de gérer des machines virtuelles et des conteneurs LXC.',
+                'Même machine que le serveur Ubuntu, j\'ai changer l\'OS pour Proxmox VE afin de gérer des machines virtuelles et des conteneurs LXC.',
                 'J\'ai déjà créé quelques VM (Windows, Omarchy), et des conteneurs LXC (Deb Alpine, OPNsense) afin de faire des tests et d\'apprendre à utiliser Proxmox.',
             ],
             'image' => 'https://gamo.one/assets/ubuntu/server_icon.jpeg',
