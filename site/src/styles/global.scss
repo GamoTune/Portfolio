@@ -1,0 +1,38 @@
+// `@gamo/ds/scss` est le spécificateur publié par le paquet (champ `exports`) pour les
+// tokens Sass — fonctions `t.space()`, `t.color()`, variables de police. Sass honore
+// `exports`, donc un chemin de fichier direct serait rejeté.
+// Les custom properties `:root` viennent de `@gamo/ds/style.css`, importé dans main.ts.
+@use "@gamo/ds/scss" as t;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// Le fond va sur `body` SEUL, comme le prescrit le README du design system.
+//
+// `PageBackground` est en `position: fixed; z-index: -1`. Dans le contexte
+// d'empilement racine, un descendant à z-index négatif se peint AVANT les fonds
+// des blocs en flux. Poser aussi un fond opaque sur `html` casse la propagation
+// vers le canevas : celui de `body` devient une boîte ordinaire, peinte par-dessus
+// le décor, qui disparaît entièrement — hachurage et bulles compris.
+//
+// Avec le fond sur `body` seul, il est propagé au canevas et `body` ne peint plus
+// rien : le décor du DS redevient visible.
+body {
+  background: var(--void);
+  color: var(--text);
+  font-family: t.$font-body;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}

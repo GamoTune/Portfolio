@@ -1,0 +1,345 @@
+{
+  "site": {
+    "title": "Arthur Labregère",
+    "tagline": "Développeur • Passionné • Créatif",
+    "role": "BACK-END · INFRA · IA",
+    "accroche": "Étudiant en deuxième année de BUT Informatique à l'IUT de Limoges. J'aime créer des choses utiles, qui servent pour autrui — surtout côté back-end et infrastructure."
+  },
+  "nav": {
+    "button": "NAVIGUER",
+    "open": "Ouvrir la carte de navigation",
+    "hint": "Sélectionne une tuile pour explorer",
+    "close": "Fermer la carte",
+    "back": "Retour à l'accueil",
+    "sidebar": "Navigation principale",
+    "sections": "Sections",
+    "projects": "Projets",
+    "expes": "Expérimentations",
+    "map": "Carte hexagonale",
+    "menu": "Ouvrir la navigation"
+  },
+  "nodes": {
+    "base": {
+      "lbl": "Accueil",
+      "desc": "retour à l'accueil"
+    },
+    "parcours": {
+      "lbl": "Parcours",
+      "desc": "BUT informatique · auto-entrepreneur · bac NSI"
+    },
+    "stack": {
+      "lbl": "Stack",
+      "desc": "langages · frameworks · outils · systèmes"
+    },
+    "about": {
+      "lbl": "À propos",
+      "desc": "étudiant BUT info · limoges · dev back-end"
+    },
+    "contact": {
+      "lbl": "Contact",
+      "desc": "github · linkedin · mail · discord"
+    },
+    "eca": {
+      "lbl": "ECA",
+      "desc": "jeu Python · lauréat des Trophées NSI"
+    },
+    "afterlife": {
+      "lbl": "After Life",
+      "desc": "bot Discord CS:GO · Node.js"
+    },
+    "blackjack": {
+      "lbl": "BlackJack",
+      "desc": "bot Discord jeu de cartes · Node.js"
+    },
+    "splatoon": {
+      "lbl": "Splatoon",
+      "desc": "webhook rotations de maps · API Nintendo"
+    },
+    "bash": {
+      "lbl": "SAE Bash",
+      "desc": "gestion de bibliothèque · Bash"
+    },
+    "latice": {
+      "lbl": "Latice",
+      "desc": "jeu de société · Java / JavaFX"
+    },
+    "roomviewer": {
+      "lbl": "Room Viewer",
+      "desc": "salles IUT en temps réel · TypeScript"
+    },
+    "ubuntu": {
+      "lbl": "Serveur Ubuntu",
+      "desc": "homelab · Apache2 · pm2 · serveurs de jeux"
+    },
+    "parallax": {
+      "lbl": "Parallax",
+      "desc": "effet parallaxe · expérimentation"
+    },
+    "ray": {
+      "lbl": "Ray Cluster",
+      "desc": "cluster de calcul distribué · Ray"
+    },
+    "proxmox": {
+      "lbl": "Proxmox",
+      "desc": "hyperviseur homelab · VMs & conteneurs LXC"
+    },
+    "lab": {
+      "lbl": "Lab",
+      "desc": "homelab · 4 hôtes Proxmox sur 2 sites · forge et CI auto-hébergées"
+    }
+  },
+  "sections": {
+    "projects": {
+      "title": "Projets",
+      "desc": "Réalisations scolaires et personnelles."
+    },
+    "expes": {
+      "title": "Expérimentations",
+      "desc": "Bricolages d'infrastructure et essais."
+    },
+    "stack": {
+      "title": "Compétences",
+      "desc": "Les technologies que j'utilise au quotidien."
+    },
+    "parcours": {
+      "title": "Mon parcours",
+      "desc": "Formation et expérience."
+    },
+    "about": {
+      "title": "À propos de moi",
+      "desc": "Étudiant en BUT Informatique à l'IUT de Limoges."
+    },
+    "contact": {
+      "title": "Contact",
+      "desc": "Le plus simple reste le mail."
+    }
+  },
+  "projects": {
+    "roomviewer": {
+      "title": "IUT Room Viewer",
+      "description": [
+        "J'ai codé un script qui permet de visualiser les salles de l'IUT Informatique de Limoges, et des informations associées.",
+        "Combiné à un bot discord, il permet de voir ce qu'il se passe dans les salles en temps réel."
+      ]
+    },
+    "latice": {
+      "title": "SAE2.01, 02, 06 — Latice",
+      "description": [
+        "Ce projet a été réalisé dans le cadre d'une SAE au S2 du BUT Informatique.",
+        "En équipe de 4, nous avons recréé le jeu Latice en Java et JavaFX.",
+        "J'ai principalement travaillé sur la logique du jeu et l'implémentation des règles."
+      ]
+    },
+    "bash": {
+      "title": "SAE1.03 — Gestion de bibliothèque en Bash",
+      "description": [
+        "Ce projet a été réalisé dans le cadre d'une SAE en 1re année de BUT Informatique.",
+        "En équipe de 2, nous avons développé des scripts en Bash permettant de gérer une bibliothèque (ajout, suppression, recherche de livres, etc.)."
+      ]
+    },
+    "splatoon": {
+      "title": "Discord Splatoon Webhook",
+      "description": [
+        "J'ai réalisé un script en JS permettant d'envoyer des notifications sur un serveur Discord lors de changements de cartes dans le jeu Splatoon 3.",
+        "Il utilise une API non officielle pour récupérer les informations de jeu. Ces infos sont transformées en images et sont envoyées via un webhook Discord."
+      ]
+    },
+    "blackjack": {
+      "title": "Mini projet BlackJack",
+      "description": [
+        "Ce projet a été réalisé dans le cadre d'un mini projet en NSI en groupe de 2 personnes.",
+        "Je me suis occupé de faire le bot discord (en Node.js) qui permet de jouer au BlackJack en ligne sur un serveur Discord."
+      ]
+    },
+    "afterlife": {
+      "title": "After Life",
+      "description": [
+        "After Life est un bot discord que j'ai développé en Node.js avec la librairie discord.js. Il a été mon premier bot Discord.",
+        "Il permettait d'ajouter des statistiques des matchs CS:GO de mon ancienne équipe, et d'afficher les informations des joueurs et des matchs passés.",
+        "Malheureusement, le bot n'est plus en ligne car mon ancienne équipe s'est dissoute et sa structure n'est plus d'actualité."
+      ]
+    },
+    "eca": {
+      "title": "Electro Cube Adventure",
+      "description": [
+        "Ce jeu est mon tout premier programme. Je l'ai entièrement développé en Python et je l'ai réalisé dans le cadre du projet final en NSI au lycée.",
+        "Dans ce jeu, vous pouvez jouer un petit cube qui se déplace dans une grille, ou vous pouvez utiliser l'éditeur pour créer vos propres niveaux.",
+        "J'ai remporté le « Prix de la Créativité » (lauréats régionaux Nouvelle-Aquitaine) dans le cadre des Trophées NSI 2023."
+      ]
+    },
+    "ray": {
+      "title": "Cluster avec Ray & Netboot",
+      "description": [
+        "Avec mon serveur et 12 autres petits PC physiques, j'ai mis en place un cluster de calcul distribué avec la librairie Python Ray.",
+        "Afin de simplifier la mise en place, j'ai aussi utilisé un netboot pour démarrer les machines en réseau.",
+        "J'ai pu expérimenter le calcul parallèle et distribué sur plusieurs machines.",
+        "Malheureusement, les machines n'étaient pas assez puissantes pour des calculs lourds, et le réseau local de la maison limitait les performances."
+      ]
+    },
+    "ubuntu": {
+      "title": "Serveur Ubuntu",
+      "description": [
+        "Machine physique chez moi, utilisant Ubuntu Server 22.04 LTS.",
+        "J'ai configuré divers services comme un serveur web (Apache2), des serveurs de jeux (Minecraft/Satisfactory), et pm2 me permet de gérer mes applications Node.js."
+      ]
+    },
+    "parallax": {
+      "title": "Parallax",
+      "description": []
+    },
+    "proxmox": {
+      "title": "Serveur Proxmox",
+      "description": []
+    },
+    "lab": {
+      "title": "Home lab",
+      "description": [
+        "Mon lab tient sur quatre hôtes Proxmox répartis sur deux sites : un serveur à la maison, branché sur la box, et trois machines dans ma chambre derrière leur propre routeur. Une vingtaine de conteneurs LXC y tournent. Tout est parti d'une seule machine sous Ubuntu Server, et a grossi au fil des besoins.",
+        "On y trouve le DNS et le DHCP du réseau, les bases PostgreSQL et MySQL, les services que je laisse tourner en permanence sous pm2, quelques serveurs de jeux, et surtout ma forge Forgejo : elle héberge mon code, sert de registre npm pour mon design system, et pilote une CI qui crée un conteneur LXC jetable par exécution, puis le détruit.",
+        "Les deux sites ne se voient pas directement : c'est Tailscale qui les relie et qui me donne l'accès à distance. Ce qui doit être public passe par des tunnels Cloudflare, ce qui m'évite de gérer le moindre certificat et de n'ouvrir aucun port sur ma box.",
+        "La principale leçon est une règle de répartition : la machine de la maison est la seule vraiment allumée en permanence, donc les services critiques et leurs bases y vivent, même si c'est la plus ancienne et la moins propre. Le lab accueille tout le reste — forge, CI, travaux de cours, essais."
+      ]
+    }
+  },
+  "skills": {
+    "langages": {
+      "category": "Langages",
+      "items": {
+        "python": "Python",
+        "javascript-node-js": "JavaScript/Node.js",
+        "typescript": "TypeScript",
+        "php": "PHP",
+        "java": "Java",
+        "sql": "SQL",
+        "markdown": "Markdown",
+        "html": "HTML"
+      }
+    },
+    "frameworks": {
+      "category": "Frameworks & Librairies",
+      "items": {
+        "express-js": "Express.js",
+        "discord-js": "Discord.js",
+        "three-js": "Three.js",
+        "vite-js": "Vite.js",
+        "electron": "Electron"
+      }
+    },
+    "bases": {
+      "category": "Bases de données",
+      "items": {
+        "postgresql": "PostgreSQL",
+        "mysql": "MySQL",
+        "ms-sql": "MS SQL",
+        "nosql": "NoSQL",
+        "mariadb": "MariaDB"
+      }
+    },
+    "outils": {
+      "category": "Outils",
+      "items": {
+        "docker": "Docker",
+        "git": "Git",
+        "ray": "Ray",
+        "apache2": "Apache2",
+        "mamp": "MAMP",
+        "phpmyadmin": "phpMyAdmin",
+        "wine": "Wine"
+      }
+    },
+    "logiciels": {
+      "category": "Logiciels",
+      "items": {
+        "vs-code": "VS Code",
+        "xcode": "XCode",
+        "intellij": "IntelliJ",
+        "eclipse": "Eclipse",
+        "figma": "Figma",
+        "termius": "Termius",
+        "filezilla": "FileZilla",
+        "utm": "UTM",
+        "ms-office": "MS Office",
+        "apple-pages-numbers": "Apple (Pages/Numbers…)"
+      }
+    },
+    "os": {
+      "category": "Systèmes d'exploitation",
+      "items": {
+        "macos": "macOS",
+        "windows": "Windows",
+        "linux-ubuntu-debian-arch": "Linux (Ubuntu, Debian, Arch)",
+        "ios": "iOS",
+        "android": "Android"
+      }
+    },
+    "langues": {
+      "category": "Langues",
+      "items": {
+        "francais-natif": "Français (natif)",
+        "anglais-b2": "Anglais (B2)",
+        "espagnol-a2": "Espagnol (A2)"
+      }
+    },
+    "perso": {
+      "category": "Compétences personnelles",
+      "items": {
+        "travail-en-equipe": "Travail en équipe",
+        "resolution-de-problemes": "Résolution de problèmes",
+        "adaptabilite": "Adaptabilité",
+        "curiosite": "Curiosité",
+        "creativite": "Créativité"
+      }
+    }
+  },
+  "timeline": {
+    "but": {
+      "year": "2024 – 2027",
+      "title": "BUT Informatique",
+      "institution": "IUT du Limousin",
+      "description": "Bachelor Universitaire de Technologie en Informatique. Spécialisation en développement logiciel."
+    },
+    "auto": {
+      "year": "2024 – Présent",
+      "title": "Auto-entrepreneur",
+      "institution": "Limoges",
+      "description": "Aide aux particuliers et petites entreprises pour la réparation et la maintenance de leurs ordinateurs. Installation de logiciels, configuration de réseaux et conseils en sécurité informatique."
+    },
+    "bac": {
+      "year": "2021 – 2024",
+      "title": "Bac Général (Maths, NSI)",
+      "institution": "Lycée Turgot, Limoges",
+      "description": "Baccalauréat général avec spécialités en Mathématiques, Numérique et sciences informatiques, et Sciences de l'ingénieur (abandonné en terminale)."
+    }
+  },
+  "about": {
+    "content": "Étudiant en deuxième année de BUT Informatique à l'IUT de Limoges, je suis passionné par le développement et les technologies. Mon parcours m'a permis d'acquérir des compétences solides en programmation, notamment en JavaScript, Python, Java et PHP. J'aime créer des choses utiles, qui servent pour autrui. Que ce soit à travers des projets scolaires comme la recréation du jeu Latice ou des initiatives personnelles comme mon jeu Python, ou mes scripts pour les salles de mon IUT. Je m'efforce toujours de produire du code propre et efficace. Mon objectif est de continuer à apprendre et à me perfectionner dans le domaine du développement logiciel (back-end principalement)."
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "mail": "Email",
+    "discord": "Discord"
+  },
+  "ui": {
+    "github": "GitHub",
+    "demo": "Voir en ligne",
+    "gallery": "Galerie",
+    "galleryOf": "Galerie — {title}",
+    "prev": "Image précédente",
+    "next": "Image suivante",
+    "closeGallery": "Fermer la galerie",
+    "counter": "{current} / {total}",
+    "todo": "Le texte de cette page reste à écrire.",
+    "notFound": "Cette page n'existe pas.",
+    "backHome": "Accueil",
+    "projectsAll": "Tous les projets",
+    "expesAll": "Toutes les expérimentations",
+    "projectsCount": "projets",
+    "expesCount": "expérimentations",
+    "since": "depuis",
+    "contextLycee": "Lycée",
+    "contextIut": "IUT",
+    "contextPerso": "Perso",
+    "seeMore": "voir plus"
+  }
+}

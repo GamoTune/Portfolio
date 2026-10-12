@@ -1,2 +1,7 @@
 .DS_Store
 .MACOS
+
+# Dépendances et artefacts de build du site Vue
+site/node_modules/
+site/.vite/
+site/*.tsbuildinfo
